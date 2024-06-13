@@ -24,7 +24,7 @@ def sum_diagonals(mat):
     sec_dig = 0
     
     
-    for i in range(n):
+    for i in range(len(mat)):
         pri_dig += mat[i][i]
         sec_dig += mat[i][len(mat) - 1 - i] 
 
